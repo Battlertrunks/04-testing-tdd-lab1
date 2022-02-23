@@ -9,7 +9,7 @@ describe("translate function", () => {
     expect(translate("else")).toBe("elseway");
   });
   test("word that starts with a vowel", () => {
-    expect(translate("giraffe")).toBe("iraffegay");
+    expect(translate("alanta")).toBe("alantaway");
   });
   test("word that starts with a vowel", () => {
     expect(translate("always")).toBe("alwaysway");
